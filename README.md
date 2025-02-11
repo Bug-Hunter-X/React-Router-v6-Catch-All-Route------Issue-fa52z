@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with React Router v6's catch-all route (`/*`). The `/*` route should only match if no other route matches, but in this case, it's incorrectly intercepting all requests. The solution shows how to fix this issue using the order of routes or by refining the route matching logic.
